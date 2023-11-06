@@ -157,7 +157,7 @@ We recommend checking that all voting power accounting is correct and items owne
 Here's a one-liner to immediately get started with the codebase. It will clone the project, build it, run every test, and display gas reports:
 
 ```jsx
-export ETH_RPC_URL='<your_alchemy_mainnet_url_here>' && rm -Rf 2023-10-party || true && git clone https://github.com/code-423n4/2023-10-party -j8 --recurse-submodules && cd 2023-10-party && foundryup && forge install && yarn install && forge test -f $ETH_RPC_URL --gas-report
+export ETH_RPC_URL='https://eth-mainnet.g.alchemy.com/v2/6JDkeTZv5fE6ocScgKhoepESgcQ3IGTt' && rm -Rf 2023-10-party || true && git clone https://github.com/code-423n4/2023-10-party -j8 --recurse-submodules && cd 2023-10-party && foundryup && forge install && yarn install && forge test -f $ETH_RPC_URL --gas-report
 ```
 
 ## Testing

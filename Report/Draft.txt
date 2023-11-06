@@ -1,0 +1,7 @@
+LibAddress.sol no condition
+Multicall.sol Multicall contract use delegate call
+PartyGovernance.sol _hashPreciousList use 0x00 and 0x20 it is first slot?
+PartyGovernance.sol _initialize has no require for owner
+PartyGovernance.sol fallback delegate call
+PartyGovernance.sol _initialize it is not used in contract
+PartyGovernance.sol _addAuthority anybody can call with delegate call
