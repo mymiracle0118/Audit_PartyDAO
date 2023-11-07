@@ -1,0 +1,2 @@
+forge test --match-path test/utils/Implementation.t.sol --match-contract ImplementationTest --match-test "test_cannotReinitialize_logicContract*"
+forge test -vv
